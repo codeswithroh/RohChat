@@ -125,7 +125,7 @@ const trigger = [
     //2
     ["what is going on", "what is up"],
     //3
-    ["happy", "good", "well", "fantastic", "cool", "great","same","nothing much"],
+    ["happy", "good", "well", "fantastic", "cool", "great","same","nothing much","thats like a good boy"],
     //4
     ["bad", "bored", "tired", "sad","meh"],
     //5
@@ -135,7 +135,7 @@ const trigger = [
     //7
     ["bye", "good bye", "goodbye"],
     // 8
-    ["fuck","holyshit","bullshit","motherfucker"],
+    ["fuck","holyshit","bullshit","motherfucker","bs","wtf"],
     // 9
     ["what is your name"],
     // 10
@@ -143,7 +143,12 @@ const trigger = [
     // 11
     ["good night"],
     // 12
-    ["good evening"]
+    ["good evening"],
+    //13
+    ["abe sale","sale","chal nikal"],
+    //14
+    ["type to kar sakta h"]
+    
 ];
 
 const reply = [
@@ -178,11 +183,18 @@ const reply = [
     // 11
     ["Good Night 🌙"],
     // 12
-    ["Good Evening 🌙"]
+    ["Good Evening 🌙"],
+    //13
+    ["Bol Sale"],
+    //14
+    ["Ha, lekin mood nehi hain"]
 ];
 
 const alternative = [
-    " 🤐"
+    " 🤐",
+    "Ok",
+    "Yup",
+    "Nope"
 ];
 
 function compare(triggerArray, replyArray, text) {
